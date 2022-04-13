@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "greeter-service"
+version = "0.0.0"
+description = "PoC that returns a greeting like 'Hello' for 'Hello world'"
+authors = ["Vlad Ionescu <Vlaaaaaaad@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "3.10.1"
+Flask = "^2.0.2"
+pytest-flask = "^1.1.0"
+gunicorn = "^20.1.0"
+Flask-Cors = "^3.0.9"
+libhoney = "^1.11.2"
+requests = "^2.26.0"
+python-json-logger = "^2.0.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+wemake-python-styleguide = "^0.16.0"

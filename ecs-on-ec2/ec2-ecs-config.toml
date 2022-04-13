@@ -1,0 +1,3 @@
+[settings.ecs]
+cluster = "ecs-on-ec2-yolo"
+enable-spot-instance-draining = true
